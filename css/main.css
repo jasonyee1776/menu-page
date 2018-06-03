@@ -1,0 +1,63 @@
+#hidden-menu {
+    width: 100vw;
+    height: 100vh;
+    position: absolute; 
+    z-index: 10;
+    padding-top: 11%;
+    top: 0;
+    position: fixed;
+    display: block;
+    background-color: tomato;
+    font-size: 2em;
+}
+
+#hidden-menu a {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+header {
+    height: 300px;
+}
+
+section h1,
+section h2 {
+    color: white;
+}
+
+section h1 {
+    font-size: 5em;
+}
+
+button {
+    position: fixed;
+    z-index: 1000;
+}
+
+
+.gray {
+    background-color: #343a40;
+}
+
+
+main {
+    display: flex;
+    align-items: center;    
+}
+
+
+
+#right-content a {
+    background-color: teal;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    text-decoration: none !important;
+    color: white;
+
+}
+
+.fade {
+    width: 0;
+}
